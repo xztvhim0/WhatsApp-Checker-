@@ -1,0 +1,16 @@
+{
+  "name": "wa-otp-checker-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram Checker WhatsApp OTP Cooldown dengan Baileys & Pairing Code",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.66.0",
+    "pino": "^9.6.0"
+  }
+}
